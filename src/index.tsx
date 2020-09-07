@@ -5,6 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import 'primereact/resources/themes/nova/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
+import 'primeflex/primeflex.min.css';
 import App from './pages/home/App';
 
 ReactDOM.render(
