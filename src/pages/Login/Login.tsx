@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import {Card} from 'primereact/card';
 import {InputText} from 'primereact/inputtext';
 import {Button} from 'primereact/button';
@@ -35,7 +36,7 @@ function Login() {
 					
 					<div className="p-grid">
 						<div className="p-offset-6 p-col-6 p-text-right">
-							<a href="esqueceu-senha">Esqueceu a senha?</a>
+							<Link to="/recovery">Esqueceu a senha?</Link>
 						</div>
 					</div>
 					
