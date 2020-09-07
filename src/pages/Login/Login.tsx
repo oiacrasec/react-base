@@ -1,17 +1,18 @@
 import React from 'react';
-import './App.css';
 import {Card} from 'primereact/card';
 import {InputText} from 'primereact/inputtext';
 import {Button} from 'primereact/button';
+import './Login.css';
+import logo from '../../assets/images/logo192.png';
 
-function App() {
+function Login() {
 	return (
 		<div className="App">
 			<header className="App-header">
 				<Card className="card-width">
 					<div className="p-grid p-fluid">
 						<div className="p-col-12 App-logo-container">
-							<img className='App-logo' src="images/logo192.png" alt=""/>
+							<img className='App-logo' src={logo} alt="Logomarca"/>
 						</div>
 					</div>
 					
@@ -33,9 +34,8 @@ function App() {
 					</div>
 					
 					<div className="p-grid">
-						<div className="p-col-6"></div>
-						<div className="p-col-6 p-text-right">
-							<a href="">Esqueceu a senha?</a>
+						<div className="p-offset-6 p-col-6 p-text-right">
+							<a href="esqueceu-senha">Esqueceu a senha?</a>
 						</div>
 					</div>
 					
@@ -50,4 +50,4 @@ function App() {
 	);
 }
 
-export default App;
+export default Login;
