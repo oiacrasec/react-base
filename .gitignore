@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# css files (they are compiled using scss)
+src/**/*.css
+
+# ide
+.idea
